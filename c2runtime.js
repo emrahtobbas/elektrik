@@ -22297,13 +22297,13 @@ cr.behaviors.Flash = function(runtime)
 	behaviorProto.exps = new Exps();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Audio,
 	cr.plugins_.Arr,
+	cr.plugins_.Audio,
 	cr.plugins_.Function,
 	cr.plugins_.Mouse,
+	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
 	cr.plugins_.Touch,
-	cr.plugins_.Sprite,
 	cr.behaviors.Flash,
 	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
